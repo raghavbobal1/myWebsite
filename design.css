@@ -252,7 +252,7 @@
 
   /* Section Images */
   section#home {
-    background: url('../img/img2199.png') no-repeat center center/cover;
+    background: url('./img/img2199.png') no-repeat center center/cover;
     background-attachment:fixed;
   }
   
@@ -263,7 +263,7 @@
   } 
   
   section#projects {
-  background-image: url('../img/img1.jpg') no-repeat center center/cover;
+  background-image: url('./img/img1.jpg') no-repeat center center/cover;
   background-attachment: fixed;
   }
 
@@ -304,10 +304,10 @@
     background-color: #b9c515;
     color: white;
     border: none;
-    padding: 13px 47px;
+    padding: 13.5px 45px;
     border-radius: 3em;
     cursor: pointer;
-    margin-left: 589px;
+    margin-left: 590px;
     text-transform: uppercase;
     margin-top: 20px;
     word-spacing:10px;
