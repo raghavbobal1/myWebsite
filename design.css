@@ -127,8 +127,7 @@ section#home {
 
 .txtproject{
     text-align: center;
-    color: #0a0000;
-    color: rgb(235, 248, 45);
+    color: rgb(235, 248,45);
 }
 
 .seeprojects{
@@ -161,6 +160,7 @@ section#home {
     letter-spacing:3px;
     text-transform:uppercase;
     height:80vh;
+    width: 100%;
 }       
 
 .txtexperience{
