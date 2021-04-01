@@ -68,18 +68,19 @@
     <section id="contact">
     <div class="contact-container">
       <p class="contact-title"> GET IN TOUCH</p>
-        <form id ="contact-form" method="post" >
+        <form id ="contact-form" method="post" action="contact-handler.php">
       
           <input type="text" class="form-control" name="firstname" onfocus="this.placeholder = ''"
           onblur="this.placeholder = 'Full name'" placeholder = 'Full name'>
-    
+      
+
           <input type="email" class="form-control" name="email" onfocus="this.placeholder = ''"
           onblur="this.placeholder = 'Email'" placeholder = 'Email'>
 
           <textarea id="message-contact" name="subject" onfocus="this.placeholder = ''"
           onblur="this.placeholder = 'Write your message'" placeholder = 'Write your message' style="height:200px"></textarea>
        </div>
-       <input type="submit" class="submitbtn" value="Submit" action="contact-handler.php">
+       <input type="submit" class="submitbtn" value="Submit">
       </form>
      
     </section>
