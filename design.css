@@ -417,8 +417,8 @@ aside{
 }
 #social ul li a span{
   display: none;
-  font-family: Lato;
-  font-weight: bold;
+  font-family:"Lato", sans-serif;
+  font-weight:inherit;
   letter-spacing: 1px;
   text-transform: none;
   text-align: center;
@@ -435,6 +435,8 @@ aside{
 #social ul li:hover a span{
   padding-left: 30%;
   padding-top: 10%;
+  font-size: 15px;
+  font-weight: lighter;
   display: block;
 }
 
