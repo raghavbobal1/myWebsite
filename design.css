@@ -92,7 +92,7 @@
     text-transform:uppercase;
 }
 section#home {
-  background: url('img/img2199.png') no-repeat center center/cover;
+  background: url('img/img2199.jpg') no-repeat center center/cover;
   background-attachment:fixed;
 }
 
@@ -134,7 +134,7 @@ section#home {
     text-transform:uppercase;
     height:86vh;
     opacity:0.93;
-    background-image:url('projects.png');
+    background-image:url('projects.jpg');
     background-attachment: fixed;    
     background-size:cover;
     background-repeat:no-repeat;
@@ -156,7 +156,7 @@ section#home {
     color: rgb(235, 248, 45);
     text-transform: none;
     top:30%;
-    left:33%;
+    left:35%;
 
 }
 
@@ -409,7 +409,7 @@ section#home {
 }
 
 aside{
-  margin-top: -20em;
+  margin-top: -17.1em;
   width:7px;
 }
 
