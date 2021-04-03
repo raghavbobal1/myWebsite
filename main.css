@@ -1,18 +1,15 @@
-@media only screen and (min-width: 999px) and (max-width: 1280px)
-{
-  
-  body, html{
+
+/* Adopting mobile first strategy */
+ body, html{
     height:100%;
+    width:device-width;
     margin:0;
     font-size:18px;
     font-family:"Lato", sans-serif;
     font-weight:400;
-    line-height:1.8em;
-    color:#666;
-    position: relative;
-    overflow-x: hidden;
-  }
-  a:link{
+    
+  } 
+   a:link{
     text-decoration: none;
   }
 
@@ -24,7 +21,8 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-}
+} 
+
 
   .lead {
     font-size: 1.5rem;
@@ -40,10 +38,19 @@
     text-transform: none;
     z-index: 1;
     display: block;
+    margin-left: -1em;
     width: 100%;
     background-color:transparent; 
   }
   
+  #navbar a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 2px;
+    text-decoration: none;
+    font-size: 16px;
+     
+  }
   #navbar ul {
     display: flex;
     list-style: none;
@@ -52,17 +59,16 @@
    }
   
   #navbar ul li {
-    margin: 0 1rem;
-    padding: 1rem;
+    margin: 0 0rem;
+    padding: 8px;
   }
   
    #navbar ul li a {
     text-decoration: none;
-    display:block;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    font-size: 19px;
-  } */
+    font-size: 18px;
+  } 
   
   #navbar ul li a:hover {
     color: white
@@ -104,7 +110,7 @@ section#home {
     color:rgb(0, 0, 0);
     padding:92px;
     line-height:1.5em;
-    font-size:39px;
+    font-size:35px;
   }
   .intro1{
      margin-top:-12.3em;
@@ -130,6 +136,7 @@ section#home {
     background-attachment: fixed;    
     background-size:cover;
     background-repeat:no-repeat;
+    position: relative;
 }
 
 
@@ -146,20 +153,23 @@ section#home {
     margin-top: 6em;
 }
 
-.btn{
+  .btn{
   background-color: rgb(235, 248, 45);
+  font-family: "Lato", sans-serif;
   padding: 6px 20px;
-  margin-left:220rem;
-  position:fixed;
+  margin-left:11em;
   border-radius:2em;
-  margin-top:100em;
+  margin-top:2em; 
+  position:absolute;
+  top: 50%;
   text-decoration: none;
-  font-size: 15px;
+  letter-spacing:1px;
+  font-size: 15px; 
   text-align: center;
   cursor: pointer;
   color: black;
   display: inline-block;
-}
+} 
 
 /* CODE FOR EXPERIENCE SECTION */
 
@@ -168,8 +178,9 @@ section#home {
     font-weight: bold;
     letter-spacing:3px;
     text-transform:uppercase;
-    height:80vh;
-  
+    height:auto;
+    margin-left: -0.5em;
+    width: 30%;
 }       
 
 .txtexperience{
@@ -214,13 +225,12 @@ section#home {
 
 .vid{
     margin-right: -6cm;
-    height:2em;
-
 }
 
 #myVideo {
     position: sticky;
-    height: 12vh;
+    width: 85%;
+    height: 126vh;
   }
 
 .expcontainer{
@@ -441,5 +451,47 @@ aside{
   font-weight: lighter;
   display: block;
 }
+
+
+
+@media only screen and (min-width: 536px) and (max-width: 540px)
+{
+    .btn{
+        margin-left: 12em;
+      } 
+
+}
+
+@media only screen and (min-width: 541px) and (max-width: 560px)
+{
+    .btn{
+       margin-left: 13em;
+      } 
+
+}
+
+@media only screen and (min-width: 561px) and (max-width: 610px)
+{
+    .btn{
+       margin-left: 13em;
+      } 
+
+}
+
+@media only screen and (min-width: 610px) and (max-width: 679px)
+{
+    .btn{
+       margin-left: 16em;
+      } 
+
+}
+
+@media only screen and (min-width: 680px) and (max-width: 1280px)
+{
+ body, html{
+     width:10%;
+ }
+
+
 
 }
