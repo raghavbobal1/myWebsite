@@ -134,7 +134,7 @@ section#home {
     text-transform:uppercase;
     height:86vh;
     opacity:0.93;
-    background:url('projects.jpg');
+    background:url('img/projects.jpg');
     background-attachment: fixed;    
     background-size:cover;
     background-repeat:no-repeat;
