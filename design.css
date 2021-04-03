@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 @media only screen and (min-width: 999px) and (max-width: 1280px)
 {
   
@@ -24,6 +26,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    position: relative;
 }
 
   .lead {
@@ -97,23 +100,64 @@ section#home {
 }
 
 .intro{
-    margin-top:3em;
+  position: relative;
+  top: 30%;  
+  width: 10em;
+  left:5%;
+  padding:10px;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 32px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+.intro1{
+  position: relative;
+  top: 23%;  
+  width: 10em;
+  left:5%;
+  padding:10px;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 32px;
+  text-align: center;
+  white-space: nowrap;
+  overflow:scroll;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 0.5s 1 normal both,blinkTextCursor 700ms steps(44) infinite normal;
+  }
+
+.anim-typewriter1{
+animation: typewriter 4s steps(44) 3.5s 1 normal both,blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+from{width: 0;}
+to{width: 17em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+.intro{
     width:100%;
     text-align:left;
     background-color: transparent;
     color:rgb(0, 0, 0);
-    padding:92px;
     line-height:1.5em;
-    font-size:39px;
   }
   .intro1{
-     margin-top:-12.3em;
     width:100%;
     text-align:left;
     background-color: transparent;
     color:rgb(0, 0, 0);
-    padding:91px;
-    font-size:17px;
+    font-size:18px;
     line-height: 0.1em;
   }
 
@@ -150,13 +194,15 @@ section#home {
 }
 
 .project-container .seeprojects{
-  position: absolute;
+    position: absolute;
     text-align: center;
     font-size: 21px;
     color: rgb(0, 0, 0);
     text-transform: none;
     top:30%;
-    left:35%;
+    left:34.5%;
+    letter-spacing:3px;
+    line-height:27px;
     
 
 }
@@ -167,7 +213,7 @@ section#home {
   position:absolute;
   border-radius:2em;
   left:44.5%;
-  top:75%;
+  top:63%;
   text-decoration: none;
   font-size: 15px;
   text-align: center;
