@@ -133,7 +133,7 @@ section#home {
   }
 
 .anim-typewriter1{
-animation: typewriter 4s steps(44) 1.3s 1 normal both,blinkTextCursor 500ms steps(44) infinite normal;
+animation: typewriter 4s steps(44) 0.6s 1 normal both,blinkTextCursor 500ms steps(44) infinite normal;
 }
 
 @keyframes typewriter{
