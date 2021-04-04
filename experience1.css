@@ -49,14 +49,14 @@
     transition: .5s;
     text-decoration:underline;
     text-decoration-thickness: 2.5px;
-    padding: 7px;
+    padding: 15px;
   }
   .checkbtn{
     font-size: 30px;
     color:rgba(170, 167, 167, 0.795);
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 5px;
     cursor: pointer;
     background-color: transparent;
     display: none;
@@ -68,20 +68,18 @@
 
   table {
     font-family:Garamond;
-    font-size: 15px;
     line-height:47px;
     width: 100%;
     margin-top: 2.2em;
     margin-left: auto;
     margin-right: auto;
-    margin: 1em auto 1em auto;
     border-collapse: collapse;
 }
   
   td {
     font-weight: bold;
     text-align: left;
-    padding: 10px;
+    padding: 1px;
     color:rgb(46, 45, 45);
     letter-spacing:0.5px;
 
@@ -96,6 +94,7 @@
 
   tr{
       background-color:rgba(170, 167, 167, 0.795);
+      font-size: 12.299999px;
   }
 
   tr:nth-of-type(even)
@@ -112,7 +111,7 @@ font-size: 10px;
   }
 
 
-  @media (max-width: 858px){
+  @media (max-width:768px){
 
      table {
     font-family:Garamond;
@@ -185,16 +184,16 @@ font-size: 10px;
     }
   }
 
-    @media (min-width: 859px){
+    @media (min-width: 769px){
     nav ul li a{
-      font-size: 16px;
+      font-size: 18px;
     }
 
     table {
       font-family:Garamond;
-      font-size: 21px;
-      line-height:47px;
-      width: 80%;
+      font-size: 16px;
+      line-height:42px;
+      width: 90%;
       margin-top: 2.2em;
       margin-left: auto;
       margin-right: auto;
@@ -220,7 +219,9 @@ font-size: 10px;
   
     tr{
         background-color:rgba(170, 167, 167, 0.795);
-    }
+        font-size: 21px;
+      }
+
   
     tr:nth-of-type(even)
     {
@@ -230,7 +231,15 @@ font-size: 10px;
     td:nth-of-type(odd){
         line-height: 1em;
     }
+  }
 
 
+  @media (min-width: 992px){
+    nav ul li a{
+      font-size: 21px;
+    }
 
+    table{
+      width:80%;
+    }
   }
