@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+
+  }
+  body{
+    font-family:"Lato", sans-serif;
+    background-color: black;
+  }
+
+  h2{
+    color: white;
+    text-align: center;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  nav{
+    background:transparent;
+    height: 80px;
+    width: 100%;  
+    z-index: 1;
+  }
+
+  nav ul{
+    text-align:center;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+  }
+  nav ul li a{
+    color: rgb(182, 180, 180);
+    font-size: 19px;
+    font-weight: bold;
+    padding: 39px;
+    border-radius: 3px;
+    text-transform: none;
+
+  }
+  a.active,a:hover{
+    background: rgba(145, 145, 145, 0.795);
+    transition: .5s;
+    padding: 7px;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color:rgba(170, 167, 167, 0.795);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+
+  table {
+    font-family:Garamond;
+    font-size: 21px;
+    line-height:47px;
+    width: 60%;
+    margin-top: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1em auto 1em auto;
+    border-collapse: collapse;
+}
+  
+  td {
+    font-weight: bold;
+    text-align: left;
+    padding: 14px;
+    color:rgb(46, 45, 45);
+    letter-spacing:0.5px;
+
+  }
+
+  th{
+      text-align: left;
+      padding-left: 23px;
+      color:rgb(0, 0, 0);
+      background-color: rgba(168, 168, 168, 0.795);
+  }
+
+  tr{
+      background-color:rgba(170, 167, 167, 0.795);
+  }
+
+  tr:nth-of-type(even)
+  {
+      background-color:#b8b8b8;
+  }
+
+  td:nth-of-type(odd){
+      line-height: 1em;
+  }
+
+
+
+
+
+  @media (max-width: 952px){
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+      background-color: transparent;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: rgba(54, 54, 54, 0.795);
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: rgba(243, 243, 243, 0.795);
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  

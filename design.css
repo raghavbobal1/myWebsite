@@ -106,7 +106,7 @@ section#home {
   left:5%;
   padding:10px;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -117,7 +117,7 @@ section#home {
   position: relative;
   top: 23%;  
   width: 10em;
-  left:5%;
+  left:14%;
   padding:10px;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 32px;
@@ -133,7 +133,7 @@ section#home {
   }
 
 .anim-typewriter1{
-animation: typewriter 4s steps(44) 3.5s 1 normal both,blinkTextCursor 500ms steps(44) infinite normal;
+animation: typewriter 4s steps(44) 1.3s 1 normal both,blinkTextCursor 500ms steps(44) infinite normal;
 }
 
 @keyframes typewriter{
@@ -157,7 +157,7 @@ to{border-right-color: transparent;}
     text-align:left;
     background-color: transparent;
     color:rgb(0, 0, 0);
-    font-size:18px;
+    font-size:20px;
     line-height: 0.1em;
   }
 
@@ -432,6 +432,7 @@ video{
 .contact-title{
   font-size: 36px;
   top: -150px;
+  text-align: center;
   margin-left: 42%;
   color: #b9c515;
   position: absolute;
