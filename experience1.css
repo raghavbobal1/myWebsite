@@ -46,8 +46,9 @@
 
   }
   a.active,a:hover{
-    background: rgba(145, 145, 145, 0.795);
     transition: .5s;
+    text-decoration:underline;
+    text-decoration-thickness: 2.5px;
     padding: 7px;
   }
   .checkbtn{
@@ -67,9 +68,57 @@
 
   table {
     font-family:Garamond;
+    font-size: 15px;
+    line-height:47px;
+    width: 100%;
+    margin-top: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1em auto 1em auto;
+    border-collapse: collapse;
+}
+  
+  td {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    color:rgb(46, 45, 45);
+    letter-spacing:0.5px;
+
+  }
+
+  th{
+      text-align: left;
+      padding-left: 23px;
+      color:rgb(0, 0, 0);
+      background-color: rgba(168, 168, 168, 0.795);
+  }
+
+  tr{
+      background-color:rgba(170, 167, 167, 0.795);
+  }
+
+  tr:nth-of-type(even)
+  {
+      background-color:#b8b8b8;
+  }
+
+  td:nth-of-type(odd){
+      line-height: 1em;
+  }
+
+  input[type="checkbox"]:not(:checked){
+font-size: 10px;
+  }
+
+
+  @media (max-width: 858px){
+
+     table {
+    font-family:Garamond;
     font-size: 21px;
     line-height:47px;
-    width: 60%;
+    width: 90%;
     margin-top: 2.2em;
     margin-left: auto;
     margin-right: auto;
@@ -106,16 +155,6 @@
       line-height: 1em;
   }
 
-
-
-
-
-  @media (max-width: 952px){
-    nav ul li a{
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 858px){
     .checkbtn{
       display: block;
       background-color: transparent;
@@ -126,7 +165,6 @@
       height: 100vh;
       background: rgba(54, 54, 54, 0.795);
       top: 80px;
-      left: -100%;
       text-align: center;
       transition: all .5s;
     }
@@ -146,4 +184,53 @@
       left: 0;
     }
   }
+
+    @media (min-width: 859px){
+    nav ul li a{
+      font-size: 16px;
+    }
+
+    table {
+      font-family:Garamond;
+      font-size: 21px;
+      line-height:47px;
+      width: 80%;
+      margin-top: 2.2em;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 1em auto 1em auto;
+      border-collapse: collapse;
+  }
+    
+    td {
+      font-weight: bold;
+      text-align: left;
+      padding: 14px;
+      color:rgb(46, 45, 45);
+      letter-spacing:0.5px;
   
+    }
+  
+    th{
+        text-align: left;
+        padding-left: 23px;
+        color:rgb(0, 0, 0);
+        background-color: rgba(168, 168, 168, 0.795);
+    }
+  
+    tr{
+        background-color:rgba(170, 167, 167, 0.795);
+    }
+  
+    tr:nth-of-type(even)
+    {
+        background-color:#b8b8b8;
+    }
+  
+    td:nth-of-type(odd){
+        line-height: 1em;
+    }
+
+
+
+  }
