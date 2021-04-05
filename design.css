@@ -1,8 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-@media only screen and (min-width: 999px) and (max-width: 1280px)
-{
-  
+@media only screen and (min-width: 999px) 
+  {
   body, html{
     height:100%;
     margin:0;
