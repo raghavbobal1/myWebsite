@@ -48,7 +48,7 @@
     transition: .5s;
   }
   .checkbtn{
-    font-size: 0.7rem;
+    font-size: 18px;
     color: rgb(0, 0, 0);
     float: right;
     line-height: 3rem;
@@ -369,8 +369,7 @@ a:hover:link{
 .contact-container{
   position: relative;
   height: 70vh;
-  width: 100%;
-  
+  width: 100%; 
 }
 
 
@@ -378,7 +377,6 @@ a:hover:link{
   background-color: black;
   opacity: 0.85;
   height: 70vh;
-
 }
 
 .contact-title{
@@ -483,7 +481,7 @@ height: 70px;
 
 }
 
-  @media only screen and (min-width:480px){
+  @media only screen and (min-width:428px){
 form{
     margin-top: 7.5rem;
     margin-left:4.5rem;
@@ -503,7 +501,16 @@ form{
 
   input[type=submit]{
     left: 36%;
-    top:70%
+    top:85%;
+  }
+
+  .contact-container{
+    height: 50vh;
+  }
+  
+  
+  #contact{
+    height: 50vh;
   }
 
 }
