@@ -2,36 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
   <title>Raghav Bobal</title>
-  <link rel="stylesheet" href="design.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="container">
-    <nav id="navbar">
+     <nav id=nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+      </label>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#projects">Projects</a></li>
             <li><a href="index.html#experience">Experience</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#contact">Contact</a></li>
           </ul>
       </nav>
-
-
-        <script>
-          window.onscroll = scrollShowNav;
-          function scrollShowNav() {
-             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementsById('#nav')[0].style.top = "-50px";
-             } else {
-                document.getElementsById('#nav')[0].style.top = "0px";
-             }
-          }
-          </script>
 
 <!-- HOME SECTION STARTS -->
 
@@ -46,10 +39,6 @@
       
       </section>
 
-<script>
-
-</script>
-
 
 <!-- PROJECTS SECTION STARTS -->
 
@@ -57,9 +46,8 @@
       <div class="project-container">
            <p class="txtproject">Projects</p>
            <p class="seeprojects">     
-            Raghav spends most of his <br>
-            weekends building mobile apps,<br> 
-            websites and more.
+            Raghav spends most of his weekends<br> 
+            building mobile apps, websites and more.
            </p>
            <a href="projects.html" class="btn">
             See Projects
@@ -72,7 +60,7 @@
 
     <section id="experience">
       <div class="exp-video">
-        <video id="video" width="100%" height="800vh" autoplay muted loop  id="myVideo">
+        <video id="video" width="600" height="600" autoplay muted loop  id="myVideo">
             <source src="final_60638cdcc817830070e1aee7_76120.mp4" type="video/mp4">
         </video>
     </div>
