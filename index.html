@@ -26,6 +26,20 @@
           </ul>
       </nav>
 
+<script type="text/javascript">
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("nav").style.top = "0";
+  } else {
+    document.getElementById("nav").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+
 <!-- HOME SECTION STARTS -->
 
     <section id="home">
@@ -88,8 +102,9 @@
    <!-- CONTACT SECTION STARTS -->
 
    <section id="contact">
-     <div class ="contact-container">
-    <p class="contact-title"> GET IN TOUCH</p>
+     
+      <!-- <div class ="contact-container"> -->
+      <p class="contact-title"> GET IN TOUCH</p>
       <form id ="contact-form" method="post" action="https://formspree.io/f/mqkwkzje">
     
         <input type="text" class="form-control" name="firstname" onfocus="this.placeholder = ''"
@@ -103,15 +118,19 @@
      
      <input type="submit" class="submitbtn" value="Submit">
     </form>
-    <div id="social">
+   
+
+     <div id="social">
+      <aside>
       <ul>
         <li><a href="https://www.facebook.com/rabobal/"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
         <li><a href="https://www.instagram.com/raghavbobal1/"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
         <li><a href="https://www.linkedin.com/in/raghavbobal1/"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
         <li><a href="https://github.com/raghavbobal1"><i class="fab fa-github"></i><span>Github</span></a></li>
         </ul>
-      </div>
-  
+      </aside></div>
+     
+
     </div>
   </section>
   
