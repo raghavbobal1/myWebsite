@@ -458,7 +458,7 @@ height: 50px;
 
 @media only screen and (min-width:320px){
 #message-contact{
-  height: 150px;
+  height: 100px;
   }
 
 
@@ -541,12 +541,12 @@ height: 50px;
 
   .contact-title{
     font-size: 16px;
-    left: 32%;
+    left: 34%;
   }
   
     form{
-      margin-top: 24%;
-      margin-left:10%rem;
+      margin-top: 30%;
+      margin-left:15%;
     }
   
     input[type=text], select, textarea
@@ -561,7 +561,7 @@ height: 50px;
   
     input[type=submit]
      {
-      top: 90%;
+      top: 85%;
       left: 35%;
       font-size: 10px;
     }
@@ -661,6 +661,7 @@ form{
   position: absolute;
   letter-spacing:0.5px;
   top: 10%;
+  left: 35%;
 }
 
 
@@ -674,9 +675,9 @@ form{
     padding: 12px;
   }
 
-  input[type=submit]
+  #contact-form input[type=submit]
    {
-    top:90%;
+    top:75%;
     left: 34.5%;
     font-size: 12px;
   }
