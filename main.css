@@ -656,8 +656,7 @@ form{
 
 .contact-title{
   font-size: 20px;
-  text-align: center;
-  left: 35%;
+  justify-content: center;
   color: #b9c515;
   position: absolute;
   letter-spacing:0.5px;
