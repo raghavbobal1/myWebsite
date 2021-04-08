@@ -306,9 +306,7 @@ a:hover:link{
     width: 100%;
     background-repeat:no-repeat;
     background-size:cover;
-    background-color: rgb(226, 226, 226);
     text-decoration: none;
-    max-width: 100%;
     background-image: url('about_photo.jpg');  
     background-size: cover;
     background-position: center;
