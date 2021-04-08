@@ -1074,6 +1074,18 @@ aside{
     left: 42%;
   }
 
+  .txtabout{
+    margin-top:1%;
+    margin-left: 0.3%;
+  }
+
+  .btn-download{
+    bottom:-10%;
+  }
+
+  .btn-hireme{
+    bottom: -20%;
+  }
 } 
 
 @media only screen and (min-width:1200px)
@@ -1134,7 +1146,8 @@ aside{
   }
 
   #about{
-    max-width: 100%;
+    height:100vh;
+    
   }
   .txtabout{
     margin-top: 0.5%;
@@ -1146,11 +1159,11 @@ aside{
   }
 
   .btn-download{
-    bottom:-12%;
+    bottom:-16%;
   }
 
   .btn-hireme{
-    bottom: -25%;
+    bottom: -28%;
   }
 
 
