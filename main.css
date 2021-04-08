@@ -23,10 +23,6 @@
   width: 100%;
   height: auto;
 }
-
-#social{
-  display:none;
-}
   /* NAVBAR CODE STARTS HERE */
 
   nav{
@@ -376,7 +372,7 @@ a:hover:link{
 section#contact{
   background-color: black;
   opacity: 0.85;
-  height:45vh;
+  height:100%;
   position: absolute;
   width: 100%;
 }
@@ -392,9 +388,9 @@ section#contact{
 }
 
   form{
-    margin-top: 18%;
+    margin-top: 50%;
     margin-left:14%;
-    height:45vh;
+    height: 40%;
     width: 100%;
   }
 
@@ -534,9 +530,7 @@ height: 50px;
   }
 
 
-  section#contact{
-    height: 80vh;
-  }
+
 
 
   .contact-title{
@@ -573,7 +567,7 @@ height: 50px;
 
 }
 
-  @media only screen and (min-width:428px){
+@media only screen and (min-width:428px){
 
  
 .btn_exp{
@@ -651,7 +645,7 @@ height: 50px;
 
 form{
   width: 100%;
-  top:20%;
+  top:30%;
 }
 
 .contact-title{
@@ -677,7 +671,6 @@ form{
 
   #contact-form input[type=submit]
    {
-    top:75%;
     left: 34.5%;
     font-size: 12px;
   }
@@ -744,13 +737,15 @@ form{
       font-size: 14px;
       left: 2%;
       top:65%;
-      width: 25%;
+      width: 28%;
+      padding:8px;
   }
 
   .btn_exp{
     font-size: 13px;
-    left: 38.8%;
-    width:20%;
+    left: 35%;
+    width:28%;
+    padding: 10px;
   }
   
 
@@ -763,18 +758,18 @@ form{
 .btn-download{
 
   font-size:14px;
-  bottom:32%;
-  left: 38%;
+  bottom:29%;
+  left: 35%;
+  width:28%;
+  padding:8px;
 }
 
 .btn-hireme{ 
   font-size:14px;
-  bottom:25%;
-  left: 38%;
-}
-
-section#contact{
-  height: 90vh;
+  bottom:21%;
+  left: 35%;
+  width:28%;
+  padding:8px;
 }
 
 
@@ -784,8 +779,7 @@ section#contact{
 }
 
   form{
-    margin-top: 8rem;
-    margin-left:14%;
+    margin-left:15%;
   }
 
   input[type=text], select, textarea
@@ -798,17 +792,19 @@ section#contact{
     padding: 13px;
   }
 
-  input[type=submit]
+  #contact-form input[type=submit]
    {
-    top: 90%;
-    left: 36%;
+
+    top: 80%;
+    left: 37%;
     font-size: 14px;
-    width: 25%;
-    padding:5px
+    width: 28%;
+    padding:10px;
+    position:absolute;
   }
   
   #message-contact{
-    height: 250px;
+    height: 200px;
   }
   ::placeholder{
     font-size:14px;
@@ -874,16 +870,13 @@ section#contact{
       font-size: 20px;
       left: 2%;
       top:60%;
-      width: 25%;
       background:transparent;
     }
 
 
   .btn_exp{
     font-size: 18px;
-    width:20%;
-    padding: 3px 3px;
-    left:40%;
+    padding: 8px;
   }
   
   
@@ -894,10 +887,9 @@ section#contact{
   }
 
 .txtabout{
-  font-size:28px;
-  margin-top: 2rem;
-  margin-left: -0.9rem;
-  opacity: 1;
+  font-size:29px;
+  margin-top: 5%;
+  margin-left:-4%;
 }
 
 #about{
@@ -906,20 +898,17 @@ section#contact{
 
 .btn-download{
   font-size:19px;
-  left: 33%;
-  width: 32%;
-  bottom:1%;
+  left: 35%;
+  bottom:0%;
+  padding: 5px;
 }
 
 .btn-hireme{ 
   font-size:19px;
-  bottom:-7.9%;
-  left: 33%;
-  width: 32%;
-}
+  bottom:-9%;
+  left: 35%;
+  padding: 5px;
 
-section#contact{
-  height: 100vh;
 }
 
 .contact-title{
@@ -929,7 +918,7 @@ section#contact{
 }
 
   form{
-    margin-top: 10rem;
+    margin-top: 25%;
     margin-left:15.5%;
   }
 
@@ -943,22 +932,45 @@ section#contact{
     padding: 13px;
   }
 
-  input[type=submit]
+  #contact-form input[type=submit]
    {
-    left: 38.7%;
-    font-size: 17px;
-    width: 25%;
-    top: 90%;
+    top:90%;
+    left: 38%;
+    padding: 5px;
+    font-size: 18px;
   }
 
   #message-contact{
-    height: 270px;
+    height: 250px;
   }
   ::placeholder{
     font-size:15px;
   }
+}
 
-  /* Code for social bar */
+
+@media only screen and (min-width:859px){
+
+
+.contact-title
+{
+  left: 40%;
+  top:5%;
+}
+section#contact{
+  height: 100%;
+}
+
+  form{
+    margin-left: 18%;
+    margin-top: 23% ;
+  }
+
+  #contact input[type=submit]{
+    left: 38%;
+    width: 27%;
+    top: 94.5%;
+  }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
@@ -969,7 +981,8 @@ section#contact{
 }
 
 aside{
- width:7px;
+  margin-top: -15em;
+  width:7px;
 }
 
 
@@ -977,7 +990,7 @@ aside{
  position:sticky;
  transition: all 0.3s linear;
  box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
- margin-top: -30rem;
+ width: 10%;
 }
 
 #social li{
@@ -1037,7 +1050,7 @@ aside{
 #social a:hover {
  z-index:1;
  margin-top: 5px;
- width: 170px;
+ width: 150px;
  border-bottom: 1px solid rgba(0,0,0,.5);
  box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
 }
@@ -1048,25 +1061,144 @@ aside{
  font-size: 15px;
  font-weight: lighter;
  display: block;
+} 
 }
 
-}
+@media only screen and (min-width:1054px){
 
-
-@media only screen and (min-width:900){
-
-  .contact-title{
-    left: 40%;
+  form{
+    margin-top: 15%;
   }
 
+  .contact-title{
+    left: 42%;
+  }
+
+} 
+
+@media only screen and (min-width:1200px)
+{
+
+  section#home{
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  .project-container{
+    height:60vh;
+  }
+  
+  #projects{
+      background:url('img/projects.jpg');
+      background-attachment: fixed; 
+      background-size: cover;   
+      object-fit: fill;
+  }
+  
+  
+   .txtproject{
+    font-size:38px;
+    font-weight: bold;
+    left:0%;
+    text-align: center;
+    letter-spacing:1.5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .seeprojects{
+      font-size: 19px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      top:32%;
+      left:1%;
+      text-align: center;
+      letter-spacing:1px;
+      line-height:25px;
+  }
+  
+  .btn{
+      background-color: rgb(0, 0, 0);
+      padding: 8px 3px;
+      border-radius: 2em;
+      text-decoration: none;
+      font-size: 16px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #ffffff;
+      color: white;
+      display: inline-block;
+      outline: none;
+      left:40.5%;
+      width:18%;
+      top:65%;
+  }
+
+  #about{
+    max-width: 100%;
+  }
+  .txtabout{
+    margin-top: 0.5%;
+    margin-left: -1%;
+    margin-right: auto;
+    font-size: 38px;
+    letter-spacing:0.7px;
+    text-align: center;
+  }
+
+  .btn-download{
+    bottom:-12%;
+  }
+
+  .btn-hireme{
+    bottom: -25%;
+  }
+
+
+  input[type=text], select, textarea
+  {
+    width: 50%;
+    padding: 12px;
+    background-color:rgb(46, 45, 45);
+    border: none;
+    box-sizing: border-box; 
+    margin-top: 10px;    
+    color: white;
+  }
+
+  input[type=email], select, textarea
+   {
+    width: 50%; 
+    padding: 12px;
+    border: none;
+    color:rgb(255, 255, 255);
+    margin-top: 12px;
+    background-color:hsl(0, 1%, 18%);
+    border: 1px solid rgb(46, 45, 45); 
+    box-sizing: border-box;
+
+  }
+
+  input[type=submit]
+   {
+    padding: 13.5px;
+    outline: none;
+    left: 46.5%;
+    width:15%;
+    font-size: 15px;
+  }
+
+  ::placeholder{
+    font-size: 15px;
+  }
+
+.contact-title{
+  font-size: 38px;
 }
 
-@media only screen and (min-width:992){
-
-
+form{
+  margin-left: 27%;
 }
-
-
+}
 
 
 
@@ -1110,7 +1242,7 @@ aside{
     }
     
     nav ul li a{
-      font-size: 23px;
+      font-size: 20px;
       padding: 30px;
       text-decoration: none;
       display:block;
