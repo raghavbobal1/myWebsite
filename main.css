@@ -839,7 +839,7 @@ form{
   
   @keyframes typewriter{
   from{width: 0;}
-  to{width: 29.8rem;}
+  to{width: 29.5rem;}
   }
   @keyframes typewriter1{
   from{width: 0;}
@@ -961,13 +961,17 @@ section#contact{
 
   form{
     margin-left: 18%;
-    margin-top: 23% ;
+    margin-top: 18% ;
   }
 
   #contact input[type=submit]{
     left: 38%;
     width: 27%;
     top: 94.5%;
+  }
+
+  input[type=email], select, textarea{
+margin-top: 2%;
   }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
@@ -1211,31 +1215,6 @@ form{
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ____________________________ */
 
 
@@ -1253,7 +1232,7 @@ form{
     }
     
     nav ul li a{
-      font-size: 20px;
+      font-size: 23px;
       padding: 30px;
       text-decoration: none;
       display:block;
@@ -1304,4 +1283,316 @@ form{
     }
   }
  
+
+@media only screen and (min-width:1400px)
+{
+
+nav ul li a{
+  font-size: 30px;
+}
+
+.intro{
+  font-size: 40px;
+
+}
+
+.intro1{
+  font-size:28px;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 39rem;}
+  }
+  @keyframes typewriter1{
+  from{width: 0;}
+  to{width: 26rem;}
+  }
+
+  .txtproject{
+    font-size: 42px;
+  }
+
+  .seeprojects{
+    font-size:23px;
+    line-height: 40px;
+  }
+
+  .btn{
+    font-size: 23px;
+  }
+
+.btn_exp{
+   font-size: 23px;
+  }
+
+.txtabout{
+  font-size: 44px;
+  letter-spacing:5px;
+  margin-top: 3%;
+}
+
+.btn-download{
+  font-size: 23px;
+  bottom:-1%;
+}
+.btn-hireme{
+  font-size: 23px;
+  bottom:-10%;
+}
+
+input[type=text], select, textarea{
+  padding: 20px;
+}
+input[type=email], select, textarea{
+  padding: 20px;
+}
+#message-contact{
+  height:330px;
+}
+.contact-title{
+  font-size: 44px;
+}
+
+#contact input[type=submit]{
+  font-size:23px;
+  padding: 10px;
+  left: 41.5%;
+  width: 20%;
+}
+  ::placeholder{
+  font-size: 20px;
+}
+
+aside{
+  margin-top: -20rem;
+  width:10px;
+}
+
+
+#social{
+ position:sticky;
+ transition: all 0.3s linear;
+ box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+ width: 10%;
+}
+
+#social li{
+ height: 70px;
+ position:relative;
+}
+
+#social li a{
+ height: 3.3rem;
+ width: 3.5rem;
+}
+
+
+#social a:hover {
+ width: 250px;
+ height:60px;
+}
+
+#social ul li:hover a span{
+ padding-left: 20%;
+ padding-top: 7%;
+ font-size: 23px;
+ font-weight: normal;
+}
+}
+
+@media only screen and (min-width:1900px){
+
+
+  nav ul li a{
+    font-size: 40px;
+  }
   
+  .intro{
+    font-size: 45px;
+  }
+  
+  .intro1{
+    font-size:33px;
+  }
+  
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 43.8rem;}
+    }
+    @keyframes typewriter1{
+    from{width: 0;}
+    to{width: 30rem;}
+    }
+  
+    .txtproject{
+      letter-spacing: 3px;
+      font-size: 55px;
+    }
+  
+    .seeprojects{
+      font-size:30px;
+      line-height: 50px;
+    }
+  
+    .btn{
+      font-size: 27px;
+    }
+  
+  .btn_exp{
+     font-size: 27px;
+    }
+  
+  .txtabout{
+    font-size: 57px;
+    margin-top: 2%;
+  }
+  
+  .btn-download{
+    font-size: 27px;
+    bottom:-7%;
+  }
+  .btn-hireme{
+    font-size: 27px;
+    bottom:-15%;
+  }
+  
+  input[type=text], select, textarea{
+    padding: 25px;
+  }
+  input[type=email], select, textarea{
+    padding: 25px;
+  }
+  #message-contact{
+    height:370px;
+  }
+  .contact-title{
+    font-size: 55px;
+  }
+  
+  #contact input[type=submit]{
+    font-size:27px;
+    padding: 10px;
+    left: 41.5%;
+    width: 20%;
+  }
+    ::placeholder{
+    font-size: 25px;
+  }
+  
+}
+
+
+@media only screen and (min-width:2300px){
+
+
+
+nav ul li a{
+  font-size: 60px;
+}
+
+.intro{
+  font-size: 70px;
+
+}
+
+.intro1{
+  font-size:40px;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 68rem;}
+  }
+  @keyframes typewriter1{
+  from{width: 0;}
+  to{width: 36rem;}
+  }
+
+  .txtproject{
+    font-size: 75px;
+    
+  }
+
+  .seeprojects{
+  font-size:40px;
+  line-height:70px;
+}
+
+  .btn{
+    font-size: 38px;
+  }
+
+.btn_exp{
+   font-size: 38px;
+  }
+
+.txtabout{
+  font-size: 79px;
+  letter-spacing:5px;
+  margin-top: 2%;
+}
+
+.btn-download{
+  font-size: 38px;
+  bottom:-5%;
+}
+.btn-hireme{
+  font-size: 38px;
+  bottom:-14%;
+}
+
+input[type=text], select, textarea{
+  padding: 40px;
+}
+input[type=email], select, textarea{
+  padding: 40px;
+  margin-top: 3rem;
+}
+#message-contact{
+  height:430px;
+}
+.contact-title{
+  font-size: 75px;
+}
+
+#contact input[type=submit]{
+  font-size:38px;
+  padding: 10px;
+  left: 41.5%;
+  width: 20%;
+}
+  ::placeholder{
+  font-size: 30px;
+}
+
+aside{
+  margin-top: -25rem;
+  width:10px;
+}
+
+
+
+#social li{
+ height: 90px;
+
+}
+
+#social li a{
+ height: 3.8rem;
+ width: 4.1rem;
+}
+
+
+#social a:hover {
+ width: 250px;
+ height:60px;
+}
+
+#social ul li:hover a span{
+ padding-left: 20%;
+ padding-top: 7%;
+ font-size: 27px;
+ font-weight: bold;
+}
+}
