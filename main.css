@@ -212,7 +212,7 @@ to{border-right-color: transparent;}
 
 .btn{
     background-color: black;
-    padding: 1px 3px;
+    padding: 1px 9px;
     border-radius: 2em;
     text-decoration: none;
     font-size: 8px;
@@ -224,7 +224,7 @@ to{border-right-color: transparent;}
     outline: none;
     left:0%;
     top:200%;
-    width:30%;
+    width:40%;
     position:absolute;
     text-transform: none;
 }
@@ -615,7 +615,7 @@ height: 50px;
   
   .btn{
       font-size: 12px;
-      width: 25%;
+      width: 29%;
   }
 
 
@@ -730,15 +730,14 @@ form{
   
   .btn{
       font-size: 14px;
-      width: 28%;
-      padding:2px;
+      width: 32%;
   }
 
   .btn_exp{
     font-size: 13px;
     left: 35%;
     width:28%;
-    padding: 10px;
+ 
   }
   
 
@@ -754,7 +753,6 @@ form{
   bottom:29%;
   left: 35%;
   width:28%;
-  padding:8px;
 }
 
 .btn-hireme{ 
@@ -762,7 +760,6 @@ form{
   bottom:21%;
   left: 35%;
   width:28%;
-  padding:8px;
 }
 
 
@@ -788,11 +785,10 @@ form{
   #contact-form input[type=submit]
    {
 
-    top: 80%;
+    top: 90%;
     left: 37%;
     font-size: 14px;
     width: 28%;
-    padding:10px;
     position:absolute;
   }
   
@@ -867,7 +863,6 @@ form{
 
   .btn_exp{
     font-size: 18px;
-    padding: 8px;
   }
   
   
@@ -923,9 +918,9 @@ form{
     padding: 13px;
   }
 
-  #contact-form input[type=submit]
+  #contact input[type=submit]
    {
-    top:90%;
+    top:95%;
     left: 38%;
     padding: 5px;
     font-size: 18px;
