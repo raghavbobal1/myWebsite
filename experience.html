@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-<nav id="nav">
+<nav class="nav">
   <input type="checkbox" id="check">
   <label for="check" class="checkbtn">
   <i class="fas fa-bars"></i>
@@ -28,9 +28,9 @@
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
 if (prevScrollpos > currentScrollPos) {
-  document.getElementById("nav").style.top = "0";
+  document.getElementByClass("nav").style.top = "0";
 } else {
-  document.getElementById("nav").style.top = "-80px";
+  document.getElementByClass("nav").style.top = "-90000px";
 }
 prevScrollpos = currentScrollPos;
 }
