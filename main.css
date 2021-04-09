@@ -832,7 +832,7 @@ form{
   }
 
   section#contact{
-    height:110vh;
+    height:108vh;
   }
 
   section#home{
@@ -912,6 +912,7 @@ form{
 #about{
   height: 100vh;
 }
+
 
 .btn-download{
   font-size:19px;
@@ -1125,6 +1126,43 @@ aside{
   }
 } 
 
+@media only screen and (min-width:766px) and (min-height:1000px) {
+
+
+  form{
+    margin-top: 15%;
+  }
+
+  section#contact{
+    height:80vh;
+  }
+
+  #contact input[type=submit]{
+    top:75%;
+    left:36%;
+  }
+
+}
+
+@media only screen and (min-width:1000px) and (min-height:600px) {
+
+
+  form{
+    margin-top: 15%;
+  }
+
+  section#contact{
+    height:100vh;
+  }
+
+  #contact input[type=submit]{
+    top:85%;
+    left:38%;
+  }
+}
+
+
+
 @media only screen and (min-width:1200px) and (min-height:480px)
 {
 
@@ -1152,7 +1190,7 @@ aside{
   }
   
   .seeprojects{
-      font-size: 19px;
+      font-size: 23px;
       color: rgb(0, 0, 0);
       font-weight: bold;
       top:32%;
@@ -1241,10 +1279,12 @@ aside{
 
 .contact-title{
   font-size: 38px;
+  left:39.5;
 }
 
 form{
   margin-left: 27%;
+  margin-top:10%;
 }
 }
 
@@ -1315,6 +1355,22 @@ form{
       left: 0;
     }
   }
+
+
+@media only screen and (min-width:1366px) and (min-height:768px){
+
+  .about-container{
+    height:55vh;
+  }
+
+  #about{
+    height: 100vh;
+  }
+
+  #contact input[type=submit]{
+    left:39%;
+  }
+}
  
 
 @media only screen and (min-width:1400px) and (min-height:480px)
@@ -1347,7 +1403,7 @@ nav ul li a{
   }
 
   .seeprojects{
-    font-size:26px;
+    font-size:29px;
     line-height: 45px;
   }
 
@@ -1392,7 +1448,7 @@ input[type=email], select, textarea{
 #contact input[type=submit]{
   font-size:23px;
   padding: 10px;
-  left: 41.5%;
+  left: 44%;
   width: 20%;
   top: 93%;
 }
@@ -1451,19 +1507,26 @@ aside{
 
   .btn-download{
     bottom:30%;
+    padding: 20px;
   }
 
   .btn-hireme{
     bottom:23%;
+    padding: 20px;
   }
 
+  .txtabout{
+    font-size:55px;
+    margin-top:6%;
+  }
 
 }
+
 
 @media only screen and (min-width:1900px) and (min-height:480px){
 
 section#projects{
-  height:1500vh;
+  height:150vh;
 }
 
   nav ul li a{
@@ -1548,8 +1611,23 @@ section#projects{
 }
 
 
-@media only screen and (min-width:2300px){
+@media only screen and (min-width:1900px) and (min-height:1000px){
 
+  .about-container{
+    height:65vh;
+  }
+
+  #about{
+    height: 100vh;
+  }
+
+  #contact input[type=submit]{
+    left:42.5%;
+  }
+}
+
+
+@media only screen and (min-width:2300px){
 
 
 nav ul li a{
