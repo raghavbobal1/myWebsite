@@ -12,6 +12,7 @@ body{
   overflow-x: hidden;
 }
 
+
 h2{
   text-align: center;
   color: white;
@@ -24,6 +25,9 @@ h5{
   text-align:center;
   padding: 10px;
   font-size:14px ;
+}
+#txt{
+  font-size: 16px;
 }
 
 p{
@@ -115,7 +119,7 @@ a{
 
 @media only screen and (min-width:428px) and (min-height:480px)
 {
-   
+
 .fakeimg{
   margin-left: 25%;
 }
@@ -197,6 +201,16 @@ a{
 
 @media only screen and (min-width:1000px) and (min-height:480px)
 {
+
+
+#github{
+  margin-left: 30%;;
+}
+   
+#txt{
+  font-size: 20px;
+}
+
   .fakeimg{
     margin-left: 39%;
   }
@@ -225,8 +239,16 @@ a{
 
 @media only screen and (min-width:1200px) and (min-height:480px)
 {
+
+
+
+#github{
+  margin-left: 35%;;
+}
+   
+
   .fakeimg{
-    margin-left: 41%;
+    margin-left: 36%;
   }
   
     .fakeimg3{
@@ -249,6 +271,11 @@ a{
     .fakeimg1 , .fakeimg2 {
       margin-left:43%;
       margin-top: 5%;
+    }
+
+    .card{
+      width: 70%;
+      margin-left: 15%;
     }
 }
 
@@ -275,14 +302,25 @@ a{
       font-size:20px;
       padding:12px;
     }
+
+    .card{
+      width: 70%;
+      margin-left: 15%;
+    }
     
 }
 
 @media only screen and (min-width:1600px) and (min-height:600px)
 {
   .fakeimg{
-    margin-left: 42%;
+    margin-left: 36%;
   }
+
+  .card{
+    width: 60%;
+    margin-left: 20%;
+  }
+  
 
   p{
     font-size:23px;
@@ -333,6 +371,10 @@ a{
   .fakeimg1 , .fakeimg2 {
     margin-left:45%;
     margin-top: 4%;
+  }
+
+  #txt{
+    font-size: 30px;
   }
   
 }
