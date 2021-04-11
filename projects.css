@@ -38,7 +38,7 @@ p{
   text-align: left;
 }
 
-a{
+#checkit{
   color: white;
   text-decoration:underline;
 }
@@ -470,7 +470,7 @@ nav ul li a{
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 a.active,a:hover{
   text-decoration: underline;
@@ -682,7 +682,7 @@ nav ul li a:hover {
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
-    text-transform: uppercase;
+    text-transform: none;
   }
   a.active,a:hover{
     text-decoration: underline;
