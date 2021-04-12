@@ -1300,9 +1300,10 @@ form{
   @media (min-width: 859px){
 
     #nav{
-      display:initial;
+      display:inline-block;
       visibility:visible;
     }
+    
     #nav1{
       display:none;
       visibility:hidden;
