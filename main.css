@@ -302,13 +302,14 @@ a:hover:link{
 /* CODE FOR ABOUT SECTION */
 
 .about-container{
-  position: relative;
+  
   height: 65vh;
   width: 100%;
 }
 
 #about
 {
+  position: relative;
     height: 65vh;
     width: 100%;
     background-repeat:no-repeat;
@@ -341,7 +342,7 @@ a:hover:link{
   border-radius: 2em;
   text-decoration: none;   
   text-align: center;
-  bottom:30%;
+  bottom:29%;
   left: 38%;
   outline: none;
   position:absolute;
@@ -359,7 +360,7 @@ a:hover:link{
   border-radius: 2em;
   text-decoration: none;   
   text-align: center;
-  bottom:21%;
+  bottom:24%;
   left: 38%;
   outline: none;
   position:absolute;
@@ -528,7 +529,7 @@ height: 50px;
   
   .btn-hireme{ 
     font-size:10px;
-    bottom:23%;
+    bottom:24.5%;
     left: 38%;
   }
 
@@ -650,13 +651,13 @@ height: 50px;
 .btn-download{
 
   font-size:12px;
-  bottom:30%;
+  bottom:28%;
   left: 38%;
 }
 
 .btn-hireme{ 
   font-size:12px;
-  bottom:22%;
+  bottom:21.5%;
   left: 38%;
 }
 
@@ -777,14 +778,12 @@ form{
 .btn-download{
 
   font-size:14px;
-  bottom:16%;
   left: 35%;
   width:28%;
 }
 
 .btn-hireme{ 
   font-size:14px;
-  bottom:7%;
   left: 35%;
   width:28%;
 }
@@ -922,13 +921,13 @@ form{
 .btn-download{
   font-size:19px;
   left: 35%;
-  bottom:-4%;
+  bottom:26%;
   padding: 3px;
 }
 
 .btn-hireme{ 
   font-size:19px;
-  bottom:-15%;
+  bottom:20%;
   left: 35%;
   padding: 3px;
 
@@ -1108,15 +1107,15 @@ aside{
 
   .txtabout{
     margin-top:1%;
-    margin-left: 0.3%;
+    margin-left: -1%;
   }
 
   .btn-download{
-    bottom:-10%;
+    bottom:23%;
   }
 
   .btn-hireme{
-    bottom: -20%;
+    bottom: 16%;
   }
 
   .txtproject{
@@ -1229,7 +1228,7 @@ aside{
   }
   .txtabout{
     margin-top: 1%;
-    margin-left: -1%;
+    margin-left: -1.5%;
     margin-right: auto;
     font-size: 38px;
     letter-spacing:0.7px;
@@ -1237,11 +1236,11 @@ aside{
   }
 
   .btn-download{
-    bottom:-40%;
+    bottom:29%;
   }
 
   .btn-hireme{
-    bottom: -50%;
+    bottom: 24%;
   }
 
 
@@ -1441,11 +1440,9 @@ nav ul li a{
 
 .btn-download{
   font-size: 23px;
-  bottom:-45%;
 }
 .btn-hireme{
   font-size:23px;
-  bottom:-57%;
 }
 
 input[type=text], select, textarea{
@@ -1514,7 +1511,7 @@ aside{
 }
 }
 
-@media only screen and (min-width:1600px) and (min-height:480px)
+@media only screen and (min-width:1600px) and (min-height:900px)
 {
 
   .about-container{
@@ -1522,18 +1519,20 @@ aside{
   }
 
   .btn-download{
-    bottom:30%;
-    padding: 20px;
+    bottom:27%;
   }
 
   .btn-hireme{
-    bottom:23%;
-    padding: 20px;
+    bottom:20%;
   }
 
   .txtabout{
     font-size:55px;
     margin-top:1%;
+  }
+
+  input[type=submit]{
+    margin-left:-3%;
   }
 
 }
@@ -1589,16 +1588,19 @@ section#projects{
   
   .txtabout{
     font-size: 57px;
-    margin-top: 1%;
+    margin-top: 0%;
   }
   
   .btn-download{
     font-size: 27px;
-    bottom:-7%;
+    padding:10px;
+    bottom:24%;
+ 
   }
   .btn-hireme{
     font-size: 27px;
-    bottom:-15%;
+    padding:10px;
+    bottom:15%;
   }
   
   input[type=text], select, textarea{
@@ -1617,7 +1619,7 @@ section#projects{
   #contact input[type=submit]{
     font-size:27px;
     padding: 10px;
-    left: 41.5%;
+    margin-left: -3%1000;
     width: 20%;
   }
     ::placeholder{
@@ -1629,25 +1631,23 @@ section#projects{
 
 @media only screen and (min-width:1900px) and (min-height:1000px){
 
-  .about-container{
-    height:65vh;
-  }
-
   #about{
     height: 100vh;
   }
 
-  #contact input[type=submit]{
-    left:42.5%;
-  }
 }
 
 
-@media only screen and (min-width:2300px){
+@media only screen and (min-width:2300px) and (min-height:1000px){
 
 
 nav ul li a{
   font-size: 60px;
+  padding:36px;
+}
+
+#about{
+  height: 200vh;
 }
 
 .intro{
@@ -1687,29 +1687,29 @@ nav ul li a{
   }
 
 .txtabout{
-  font-size: 79px;
+  font-size: 85px;
   letter-spacing:5px;
   margin-top:1%;
 }
 
 .btn-download{
   font-size: 38px;
-  bottom:-5%;
+  bottom:30%;
 }
 .btn-hireme{
   font-size: 38px;
-  bottom:-14%;
+  bottom:25%;
 }
 
 input[type=text], select, textarea{
-  padding: 40px;
+  padding: 30px;
 }
 input[type=email], select, textarea{
-  padding: 40px;
-  margin-top: 3rem;
+  padding: 30px;
+  margin-top: 1.5rem;
 }
 #message-contact{
-  height:430px;
+  height:400px;
 }
 .contact-title{
   font-size: 75px;
@@ -1718,7 +1718,7 @@ input[type=email], select, textarea{
 #contact input[type=submit]{
   font-size:38px;
   padding: 10px;
-  left: 41.5%;
+  margin-left: -1%;
   width: 20%;
 }
   ::placeholder{
